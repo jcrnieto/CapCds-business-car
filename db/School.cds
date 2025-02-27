@@ -5,6 +5,8 @@ entity Establecimiento {
   nombre: String(100);
   direccion: String(255);
   telefono: String(20);
+  fechaInauguracion: Date;
+  fechaActual: Date;
 }
 
 entity Profesores {

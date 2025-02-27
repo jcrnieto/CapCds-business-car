@@ -10,5 +10,8 @@ service SchoolService {
   entity Materias as projection on school.Materias;
   entity Inscripciones as projection on school.Inscripciones;
   entity Horarios as projection on school.Horarios;
+
+  
   
 }
+
