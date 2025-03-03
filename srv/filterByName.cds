@@ -1,5 +1,5 @@
-using {school} from '../db/School';
+// using {school} from '../db/School';
 
-service filterByName @(path:'/filterByName') {
-    entity Establecimiento as projection on school.Establecimiento;
-}
+// service filterByName @(path:'/filterByName') {
+//     entity Establecimiento as projection on school.Establecimiento;
+// }
