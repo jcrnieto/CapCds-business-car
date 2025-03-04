@@ -8,5 +8,5 @@ entity Teachers {
   lastName: String(100);
   email: String(100);
   phone: String(20);
-  establishment: Association to school.School;
+  school: Association to school.School;
 }

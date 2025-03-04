@@ -7,9 +7,9 @@ entity Students {
   firstName: String(100);
   lastName: String(100);
   birthDate: Date;
-  establishment: Association to school.School;
+  school: Association to school.School;
 
-  addresses: Composition of many Addresses on addresses.student = $self;
+  addresses: Composition of many Addresses on addresses.student= $self;
 }
 
 entity Addresses {
